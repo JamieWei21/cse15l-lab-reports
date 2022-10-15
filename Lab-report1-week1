@@ -3,7 +3,7 @@ Downloading is very simple as you search it online and they give you a good inst
 
 https://code.visualstudio.com/
 
-![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/VSC-LabR1.PNG)
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/VSC-LabR1.PNG)
 
 
 
@@ -14,7 +14,7 @@ Ssh yourusername@ieng6.ucsd.edu
 
 Then you must enter your password which will not be shown on the terminal. This should be enough to get your to login.
 
-![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example2-LabR1.PNG)
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example2-LabR1.PNG)
 
 
 3. Next step is a simple step. Enter some commands and get used to the new terminal. Enter “ls” “cd” and then try running “exit”.
