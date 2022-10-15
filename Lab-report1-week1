@@ -3,7 +3,7 @@ Downloading is very simple as you search it online and they give you a good inst
 
 https://code.visualstudio.com/
 
-
+![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/VSC-LabR1.PNG)
 
 
 
@@ -14,18 +14,23 @@ Ssh yourusername@ieng6.ucsd.edu
 
 Then you must enter your password which will not be shown on the terminal. This should be enough to get your to login.
 
+![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example2-LabR1.PNG)
+
 
 3. Next step is a simple step. Enter some commands and get used to the new terminal. Enter “ls” “cd” and then try running “exit”.
 
 Ls- shows the list of directory's that you can specifiy into
 cd- when entered you enter that changes your path
 
+
+![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example3-labR1.PNG)
+
 4. Next you will find a file called WhereAmI.java compile and run it in your normal terminal. 
 Then hop onto the ssh and login to the virtual machine and then type
 
 	Scp (filename) accountname@ieng6.ucsd.edu
 
-
+![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example4-LabR1.PNG)
 
 5. Next we try to set up an SSH key to skip the login. First type in
 
@@ -37,6 +42,9 @@ Next login to the virtual machine via ssh. Next we will use the scp function, ty
 Scp (location of the keygen that you automatically created in the previous step) accountname@ieng6.ucsd.edu
 
 The location of the keygen is normally stored into the user's .ssh directory under the home directory. 
+
+
+![Image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example5-LabR1.PNG)
 
 
 6. The keygen speeds up your ability to login due to being able to skip the password. Passwords aren't shown therefore, the user are blind when typing
