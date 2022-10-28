@@ -72,6 +72,8 @@ This is the result after searching up http://localhost:2314/search?s=app. This w
 
 Part 2
 
+This is the errors we would get after running ArrayReversed Test. 
+
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
