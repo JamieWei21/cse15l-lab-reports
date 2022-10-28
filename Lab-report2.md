@@ -72,18 +72,23 @@ This is the result after searching up http://localhost:2314/search?s=app. This w
 
 Part 2
 
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
 This is the errors we would get after running ArrayReversed Test. 
 
 ```
-  static int[] reversed(int[] arr) {
-    int[] newArray = new int[arr.length];
-    int temp = 0;
+  static void reverseInPlace(int[] arr) {
+    int temp;
     for(int i = 0; i < arr.length; i += 1) {
-      temp = newArray[i];
-      newArray[i] = arr[arr.length - i - 1];
-      newArray[arr.length - i - 1] = temp;
+      temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length-i-1] = temp;
     }
-    return newArray;
   }
 ```
 
