@@ -68,3 +68,21 @@ This is the second screenshot which is a result after searching up http://localh
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example4-Lab2.PNG)
 
 This is the result after searching up http://localhost:2314/search?s=app. This will go through the Arraylist and see which contains the word app in the word. Then it returns the array containing the word.
+
+
+Part 2
+
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    int temp = 0;
+    for(int i = 0; i < arr.length; i += 1) {
+      temp = newArray[i];
+      newArray[i] = arr[arr.length - i - 1];
+      newArray[arr.length - i - 1] = temp;
+    }
+    return newArray;
+  }
+```
+
+This is the corrected code, before our code didn't have the temporary variable. They only used one list and when we reversed it the arraylist would forget the early integers. 
