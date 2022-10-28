@@ -93,3 +93,17 @@ This is the errors we would get after running ArrayReversed Test.
 ```
 
 This is the corrected code, before our code didn't have the temporary variable. They only used one list and when we reversed it the arraylist would forget the early integers. 
+
+
+
+```
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(0, s);
+      }
+    }
+    return result;
+  }
+```
