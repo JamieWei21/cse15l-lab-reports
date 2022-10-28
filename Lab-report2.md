@@ -71,7 +71,7 @@ This is the result after searching up http://localhost:2314/search?s=app. This w
 
 
 Part 2
-
+This is the code that is wrong, Reverse in Place Array. This code is intended to take one array and be able to reverse it without a second array.
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -95,15 +95,24 @@ This is the errors we would get after running ArrayReversed Test.
 This is the corrected code, before our code didn't have the temporary variable. They only used one list and when we reversed it the arraylist would forget the early integers. 
 
 
+This is the second code that was incorrect, which is the reverse ArrayList. This reverse method will use another Array.
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
 
 ```
-  static List<String> filter(List<String> list, StringChecker sc) {
-    List<String> result = new ArrayList<>();
-    for(String s: list) {
-      if(sc.checkString(s)) {
-        result.add(0, s);
-      }
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
     }
-    return result;
+    return newArray;
   }
 ```
