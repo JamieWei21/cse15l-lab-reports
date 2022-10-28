@@ -51,4 +51,14 @@ Example: "search=wit" ... is wit.
 
 
 
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example3-%20Lab2.PNG)
+
+
+
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example1-%20Lab2.PNG)
+
+
+
+
+
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example4-%20Lab2.PNG)
