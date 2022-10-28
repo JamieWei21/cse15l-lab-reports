@@ -48,3 +48,7 @@ class SearchEngine2 {
 
 Above is my code for a Simple Search Engine which will remember the all the searches with "/add". Once they search with "search=..." then it will look through the array of search history and take all the searches containing the term ... and return it. 
 Example: "search=wit" ... is wit. 
+
+
+
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example1-%20Lab2.PNG)
