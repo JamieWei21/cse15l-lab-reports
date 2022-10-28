@@ -53,14 +53,18 @@ Example: "search=wit" ... is wit.
 
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example3-Lab2.PNG)
 
-After running the code and starting up the server lost, this is the result after searching up 
+After running the code and starting up the server lost, this is the result after searching up http://localhost:2314/add?s=apple. Also our arraylist will add everything after the equal sign which is apple.
 
 
 
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example1-%20Lab2.PNG)
+
+This is the second screenshot which is a result after searching up http://localhost:2314/add?s=pineapple. Our Arraylist now adds everything after the equal sign which is pineapple.
 
 
 
 
 
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example4-Lab2.PNG)
+
+This is the result after searching up http://localhost:2314/search?s=app. This will go through the Arraylist and see which contains the word app in the word. Then it returns the array containing the word.
