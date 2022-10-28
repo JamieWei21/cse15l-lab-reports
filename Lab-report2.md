@@ -80,6 +80,9 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 This is the errors we would get after running ArrayReversed Test. 
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example5-Lab2.PNG)
+
+As you can see we get a 5 value when it should be 1. 
 
 ```
   static void reverseInPlace(int[] arr) {
@@ -93,6 +96,9 @@ This is the errors we would get after running ArrayReversed Test.
 ```
 
 This is the corrected code, before our code didn't have the temporary variable. They only used one list and when we reversed it the arraylist would forget the early integers. 
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Success-Lab2.PNG)
+
+As you can see this test passes after the fix.
 
 
 This is the second code that was incorrect, which is the reverse ArrayList. This reverse method will use another Array.
@@ -106,6 +112,10 @@ This is the second code that was incorrect, which is the reverse ArrayList. This
   }
 ```
 
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Failure2-Lab2.PNG)
+
+As you can see this results in an error. We get a 0 when we were suppose to get a 1.
+
 
 ```
   static int[] reversed(int[] arr) {
@@ -116,3 +126,7 @@ This is the second code that was incorrect, which is the reverse ArrayList. This
     return newArray;
   }
 ```
+Everything was almost correct, its just that we misplaced the variables at a wrong spot. After doing some tweeking the variables will be correct. 
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Success2-Lab.PNG)
+
+As you can see we get a success.
