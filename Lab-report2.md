@@ -53,6 +53,8 @@ Example: "search=wit" ... is wit.
 
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example3-Lab2.PNG)
 
+After running the code and starting up the server lost, this is the result after searching up 
+
 
 
 ![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/Example1-%20Lab2.PNG)
