@@ -44,9 +44,9 @@ To compare to just using vim to change the file, I then used a standard method o
 and then I made the changes to the line mentioned in part 1. Afterwards I scpd it into the remote server using command "ssh DocSearchServer.java cs15lfa22ir@ieng6.ucsd.edu". This would create the copy
 into my remote server. Afterwards I logged into my ssh server and then ran the command "bash test.sh". After all that, my time to complete was 1 minute 51 seconds. 
 
-![image6]
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/lab-report-4-part2-1.PNG)
 
-![image7]
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/lab-report-4-part2-2.PNG)
 
 
 Vim method
@@ -55,18 +55,16 @@ I started off in the remote server and then I used vim into the file DocSearchSe
 I did it in part 1. After running the command "bash test.sh", my time was 29 seconds.
 
 
-
-![image8]
-
-![image9]
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/lab-report-4-part2-3.PNG)
+  
+![image](https://github.com/JamieWei21/cse15l-lab-reports/blob/main/lab-report-4-part2-4.PNG)
 
 
 
 
 After running both ways I can say without a doubt that editing in vim was faster for me. I definetly beleive that vim is faster simply because I can just edit remotely
 instead of having to scp something everytime I make a change. If I made mistakes it would be faster to use vim because if I didn't I would have to edit and make change 
-and then send a copy back everytime. However, I can definelty say vim is more complicated to use than regular method of scp due to vim being super complicated. That being said,
-I can definetly see why vim is a very powerful tool.
+and then send a copy back everytime. However, I can definelty say vim is more complicated to use than regular method of scp due to vim being super complicated. That being said, I can definetly see why vim is a very powerful tool.
 
 
 
